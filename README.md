@@ -14,13 +14,14 @@ Output: Dense layer   -> single passenger count prediction
 
 
 ## Project Structure
-'''
+```
 vanilla_rnn_airline_passengers/
 |
 |-- vanilla_rnn_airline_passengers.ipynb
 |-- README.md
-|-- data/
----
+|-- data
+```
+
 
 
 ## Getting Started
