@@ -4,14 +4,14 @@ A beginner-friendly implementation of a **Simple Recurrent Neural Network (Simpl
 
 ---
 
-## Overview
+ Overview
 
 This notebook walks through building a Vanilla RNN from scratch to forecast time-series data — specifically, the classic **airline passengers dataset**. Unlike a standard feedforward network, an RNN reads inputs **one step at a time** and maintains a **hidden state** (memory) that carries information forward across time steps.
 Step 1: Read month-1  -> update hidden state
 Step 2: Read month-2  -> update hidden state (remembers month-1)
 Step 3: Read month-3  -> update hidden state (remembers months 1 & 2)
 Output: Dense layer   -> single passenger count prediction
----
+
 
 ## Project Structure
 vanilla_rnn_airline_passengers/
